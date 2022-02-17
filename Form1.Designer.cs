@@ -55,6 +55,7 @@
             this.chkKana = new System.Windows.Forms.CheckBox();
             this.chkKanji = new System.Windows.Forms.CheckBox();
             this.btnRead = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictZoomed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictActual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinYOffset)).BeginInit();
@@ -260,9 +261,9 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus,
             this.lblConvertCount});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 213);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 218);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(556, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(563, 22);
             this.statusStrip1.TabIndex = 20;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -283,7 +284,7 @@
             this.chkAlpha.AutoSize = true;
             this.chkAlpha.Checked = true;
             this.chkAlpha.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkAlpha.Location = new System.Drawing.Point(149, 176);
+            this.chkAlpha.Location = new System.Drawing.Point(156, 199);
             this.chkAlpha.Name = "chkAlpha";
             this.chkAlpha.Size = new System.Drawing.Size(84, 16);
             this.chkAlpha.TabIndex = 21;
@@ -295,7 +296,7 @@
             this.chkKana.AutoSize = true;
             this.chkKana.Checked = true;
             this.chkKana.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkKana.Location = new System.Drawing.Point(240, 175);
+            this.chkKana.Location = new System.Drawing.Point(247, 198);
             this.chkKana.Name = "chkKana";
             this.chkKana.Size = new System.Drawing.Size(69, 16);
             this.chkKana.TabIndex = 22;
@@ -307,7 +308,7 @@
             this.chkKanji.AutoSize = true;
             this.chkKanji.Checked = true;
             this.chkKanji.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkKanji.Location = new System.Drawing.Point(325, 175);
+            this.chkKanji.Location = new System.Drawing.Point(332, 198);
             this.chkKanji.Name = "chkKanji";
             this.chkKanji.Size = new System.Drawing.Size(48, 16);
             this.chkKanji.TabIndex = 23;
@@ -324,11 +325,21 @@
             this.btnRead.UseVisualStyleBackColor = true;
             this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(156, 179);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(62, 12);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "変換フィルタ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(556, 235);
+            this.ClientSize = new System.Drawing.Size(563, 240);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnRead);
             this.Controls.Add(this.chkKanji);
             this.Controls.Add(this.chkKana);
@@ -395,6 +406,7 @@
         private System.Windows.Forms.CheckBox chkKana;
         private System.Windows.Forms.CheckBox chkKanji;
         private System.Windows.Forms.Button btnRead;
+        private System.Windows.Forms.Label label2;
     }
 }
 
