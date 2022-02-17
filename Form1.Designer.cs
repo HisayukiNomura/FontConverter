@@ -353,7 +353,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "ch";
+            this.Text = "FONTX2 Converter";
             ((System.ComponentModel.ISupportInitialize)(this.pictZoomed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictActual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.spinYOffset)).EndInit();
